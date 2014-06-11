@@ -1,0 +1,3 @@
+numTextures: 2
+grass.jpg:4.0: main grass
+water.jpg:80.0: water texture

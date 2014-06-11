@@ -1,0 +1,83 @@
+﻿Build started 6/11/2014 5:38:04 PM.
+     1>Project "D:\GitHub\test\ExRoadDesigner\ExRoadDesigner.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\ExRoadDesigner.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing ControlWidget.h...
+         Uic'ing ControlWidget.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\boost_1_53\ /I.\GeneratedFiles /I. /IC:\Qt\4.8.1\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.1\include\QtCore /IC:\Qt\4.8.1\include\QtGui /IC:\Qt\4.8.1\include\QtXml /IC:\Qt\4.8.1\include\QtOpenGL /IC:\Qt\4.8.1\include\QtTest /I..\opencv\include\ /I..\glew\include\GL /nologo /W1 /WX- /MP /O2 /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ControlWidget.cpp GLWidget3D.cpp GeneratedFiles\Release\moc_ControlWidget.cpp GeneratedFiles\Release\moc_MainWindow.cpp MainWindow.cpp PropertyWidget.cpp TerrainSizeInputDialog.cpp UrbanGeometry.cpp main.cpp
+         ControlWidget.cpp
+         GLWidget3D.cpp
+         moc_ControlWidget.cpp
+         moc_MainWindow.cpp
+         MainWindow.cpp
+         PropertyWidget.cpp
+         TerrainSizeInputDialog.cpp
+         UrbanGeometry.cpp
+         main.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\test\x64\Release\\ExRoadDesigner.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.1\lib /LIBPATH:..\opencv\lib\ /LIBPATH:..\glew\lib qtmain.lib QtCore4.lib QtGui4.lib QtXml4.lib QtOpenGL4.lib opengl32.lib glu32.lib QtTest4.lib opencv_core249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_photo249.lib opencv_video249.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ExRoadDesigner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\GitHub\test\x64\Release\ExRoadDesigner.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\test\x64\Release\ExRoadDesigner.lib" /MACHINE:X64 x64\Release\BBox.obj
+         x64\Release\clipper.obj
+         x64\Release\ConvexHull.obj
+         x64\Release\nvModel.obj
+         x64\Release\nvModelObj.obj
+         x64\Release\nvModelQuery.obj
+         x64\Release\ColorTable.obj
+         x64\Release\ControlWidget.obj
+         x64\Release\ElevationColorTable.obj
+         x64\Release\qrc_MainWindow.obj
+         x64\Release\moc_ControlWidget.obj
+         x64\Release\moc_MainWindow.obj
+         x64\Release\moc_PropertyWidget.obj
+         x64\Release\moc_TerrainSizeInputDialog.obj
+         x64\Release\global.obj
+         x64\Release\GLWidget3D.obj
+         x64\Release\GLWidget3D_Shadows.obj
+         x64\Release\GraphUtil.obj
+         x64\Release\LC_Layer.obj
+         x64\Release\main.obj
+         x64\Release\MainWindow.obj
+         x64\Release\Polygon2D.obj
+         x64\Release\Polygon3D.obj
+         x64\Release\Polyline2D.obj
+         x64\Release\Polyline3D.obj
+         x64\Release\PropertyWidget.obj
+         x64\Release\RendererHelper.obj
+         x64\Release\RoadEdge.obj
+         x64\Release\RoadGraph.obj
+         x64\Release\RoadVertex.obj
+         x64\Release\TerrainSizeInputDialog.obj
+         x64\Release\TopNSearch.obj
+         x64\Release\UrbanGeometry.obj
+         x64\Release\Util.obj
+         x64\Release\VBOBlock.obj
+         x64\Release\VBOGeoBuilding.obj
+         x64\Release\VBOModel.obj
+         x64\Release\VBOModel_StreetElements.obj
+         x64\Release\VBOParcel.obj
+         x64\Release\VBOPlaceType.obj
+         x64\Release\VBOPm.obj
+         x64\Release\VBOPmBlocks.obj
+         x64\Release\VBOPmBuildings.obj
+         x64\Release\VBOPmParcels.obj
+         x64\Release\VBORenderManager.obj
+         x64\Release\VBORoadGraph.obj
+         x64\Release\VBOShader.obj
+         x64\Release\VBOSkyBox.obj
+         x64\Release\VBOTerrain.obj
+         x64\Release\VBOUtil.obj
+         x64\Release\VBOVegetation.obj
+         x64\Release\VBOWater.obj
+         ExRoadDesigner.vcxproj -> D:\GitHub\test\x64\Release\ExRoadDesigner.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\GitHub\test\x64\Release\\ExRoadDesigner.exe;#1" /manifest x64\Release\ExRoadDesigner.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\ExRoadDesigner.unsuccessfulbuild".
+         Touching "x64\Release\ExRoadDesigner.lastbuildstate".
+     1>Done Building Project "D:\GitHub\test\ExRoadDesigner\ExRoadDesigner.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.13

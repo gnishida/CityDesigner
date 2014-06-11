@@ -1,0 +1,112 @@
+﻿Build started 5/31/2014 4:05:58 PM.
+     1>Project "D:\GitHub\QtUrban\ExRoadDesigner\ExRoadDesigner.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\ExRoadDesigner.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\boost_1_53\ /I.\GeneratedFiles /I. /IC:\Qt\4.8.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.1\include\QtCore /IC:\Qt\4.8.1\include\QtGui /IC:\Qt\4.8.1\include\QtXml /IC:\Qt\4.8.1\include\QtOpenGL /IC:\Qt\4.8.1\include\QtTest /I..\opencv\include\ /I..\glew\include\GL /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt RoadGeneratorHelper.cpp
+         RoadGeneratorHelper.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\QtUrban\x64\Debug\\ExRoadDesigner.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.1\lib /LIBPATH:..\opencv\lib\ /LIBPATH:..\glew\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtXmld4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtTestd4.lib opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_photo249d.lib opencv_video249d.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\ExRoadDesigner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GitHub\QtUrban\x64\Debug\ExRoadDesigner.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\QtUrban\x64\Debug\ExRoadDesigner.lib" /MACHINE:X64 x64\Debug\BBox.obj
+         x64\Debug\BlendingVideoSettingDialog.obj
+         x64\Debug\BSpline.obj
+         x64\Debug\CameraSequence.obj
+         x64\Debug\CircleDetectionScaleInputDialog.obj
+         x64\Debug\CircleHoughTransform.obj
+         x64\Debug\clipper.obj
+         x64\Debug\FlyThroughCamera.obj
+         x64\Debug\moc_BlendingVideoSettingDialog.obj
+         x64\Debug\moc_CircleDetectionScaleInputDialog.obj
+         x64\Debug\moc_GrowingVideoSettingDialog.obj
+         x64\Debug\moc_InterpolationVideoSettingDialog.obj
+         x64\Debug\moc_RotationVideoSettingDialog.obj
+         x64\Debug\moc_StructureDetectionSettingDialog.obj
+         x64\Debug\moc_VideoCaptureSettingDialog.obj
+         x64\Debug\GrowingVideoSettingDialog.obj
+         x64\Debug\InterpolationVideoSettingDialog.obj
+         x64\Debug\MassSpring.obj
+         x64\Debug\nvModel.obj
+         x64\Debug\nvModelObj.obj
+         x64\Debug\nvModelQuery.obj
+         x64\Debug\PatchTensorRoadGenerator.obj
+         x64\Debug\PatchWarp2RoadGenerator.obj
+         x64\Debug\PMRoadGenerator.obj
+         x64\Debug\RotationVideoSettingDialog.obj
+         x64\Debug\ShapeDetector.obj
+         x64\Debug\ColorTable.obj
+         x64\Debug\ControlWidget.obj
+         x64\Debug\ConvexHull.obj
+         x64\Debug\ElevationColorTable.obj
+         x64\Debug\ExFeature.obj
+         x64\Debug\moc_ControlWidget.obj
+         x64\Debug\moc_MainWindow.obj
+         x64\Debug\moc_PropertyWidget.obj
+         x64\Debug\moc_TerrainSizeInputDialog.obj
+         x64\Debug\qrc_MainWindow.obj
+         x64\Debug\global.obj
+         x64\Debug\GLWidget3D.obj
+         x64\Debug\GLWidget3D_Shadows.obj
+         x64\Debug\GraphUtil.obj
+         x64\Debug\Histogram.obj
+         x64\Debug\HoughTransform.obj
+         x64\Debug\LC_Layer.obj
+         x64\Debug\main.obj
+         x64\Debug\MainWindow.obj
+         x64\Debug\MorphGrid.obj
+         x64\Debug\PatchMultiIntExRoadGenerator.obj
+         x64\Debug\PatchWarpRoadGenerator.obj
+         x64\Debug\Polygon2D.obj
+         x64\Debug\Polygon3D.obj
+         x64\Debug\PolygonBuilder.obj
+         x64\Debug\Polyline2D.obj
+         x64\Debug\Polyline3D.obj
+         x64\Debug\PolylineBuilder.obj
+         x64\Debug\PropertyWidget.obj
+         x64\Debug\RendererHelper.obj
+         x64\Debug\RoadArea.obj
+         x64\Debug\RoadAreaSet.obj
+         x64\Debug\RoadEdge.obj
+         x64\Debug\RoadGeneratorHelper.obj
+         x64\Debug\RoadGraph.obj
+         x64\Debug\RoadVertex.obj
+         x64\Debug\SmallBlockRemover.obj
+         x64\Debug\StructureDetectionSettingDialog.obj
+         x64\Debug\TensorField.obj
+         x64\Debug\TerrainSizeInputDialog.obj
+         x64\Debug\TopNSearch.obj
+         x64\Debug\UrbanGeometry.obj
+         x64\Debug\Util.obj
+         x64\Debug\VBOBlock.obj
+         x64\Debug\VBOGeoBuilding.obj
+         x64\Debug\VBOModel.obj
+         x64\Debug\VBOModel_StreetElements.obj
+         x64\Debug\VBOParcel.obj
+         x64\Debug\VBOPlaceType.obj
+         x64\Debug\VBOPm.obj
+         x64\Debug\VBOPmBlocks.obj
+         x64\Debug\VBOPmBuildings.obj
+         x64\Debug\VBOPmParcels.obj
+         x64\Debug\VBORenderManager.obj
+         x64\Debug\VBORoadGraph.obj
+         x64\Debug\VBOShader.obj
+         x64\Debug\VBOSkyBox.obj
+         x64\Debug\VBOTerrain.obj
+         x64\Debug\VBOUtil.obj
+         x64\Debug\VBOVegetation.obj
+         x64\Debug\VBOWater.obj
+         x64\Debug\VideoCaptureSettingDialog.obj
+         x64\Debug\VoronoiUtil.obj
+         LINK : D:\GitHub\QtUrban\x64\Debug\\ExRoadDesigner.exe not found or not built by the last incremental link; performing full link
+         ExRoadDesigner.vcxproj -> D:\GitHub\QtUrban\x64\Debug\ExRoadDesigner.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\GitHub\QtUrban\x64\Debug\\ExRoadDesigner.exe;#1" /manifest x64\Debug\ExRoadDesigner.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\ExRoadDesigner.unsuccessfulbuild".
+         Touching "x64\Debug\ExRoadDesigner.lastbuildstate".
+     1>Done Building Project "D:\GitHub\QtUrban\ExRoadDesigner\ExRoadDesigner.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.90
